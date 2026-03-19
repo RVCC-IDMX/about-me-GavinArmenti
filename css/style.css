@@ -25,6 +25,11 @@ body, #Hero, footer {
 
 }
 
+p, li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #Hero img{
     width: 400px;
     max-width: 100%; /* Does something with the image as the screen gets smaller*/
@@ -51,7 +56,7 @@ footer{
 
 @media (max-width: 1527px) 
 {
-/* if screen <= #px */
+/* that means 'if screen <= #px' */
     body 
     {
         background-color:red;

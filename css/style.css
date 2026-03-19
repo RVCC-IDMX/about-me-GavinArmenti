@@ -54,12 +54,31 @@ footer{
     border-top: 5px solid #000033;
 }
 
+#Hobbies
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-/*@media (max-width: 1527px)*/
-/*{*/
-/* that means 'if screen <= #px' */
-    /*body 
+@media (min-width: 960px)
+{
+    /*min-width means 'if screen >= #px' */
+    #Gallery figure 
     {
-        background-color:red;
+        display:grid;
+        grid-template-columns: 2fr 1fr;
     }
-}*/
+    #Gallery figcaption
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:125%;
+        margin-left: 1rem;
+    }
+}
+
+/* Look at css-tricks.com Guide to Flexbox to look at
+putting elements at the same level
+Also look at Guide to Grid Layout.*/

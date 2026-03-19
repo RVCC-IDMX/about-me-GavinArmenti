@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This is for goofing around with grids and stuff.
+     This is not meant to actually add to About Me. -->
+
+    <div id = "container">
+        <div id="Item1">Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+    </div>
+
+    <style>
+        #container {
+            display: grid;
+            border: 1px solid red;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 400px 100px;
+            grid-template-rows: auto;
+            grid-template-areas:
+                /* names each grid tile*/
+                "header header header"
+                "menu content content"
+                "footer footer footer";
+            
+        }
+
+        #Item1{
+            grid-column-start:1;
+            grid-column-end:-1;
+        }
+        
+    </style>
+
+    
+</body>
+</html>

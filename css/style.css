@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Oswald:wght@200..700&display=swap');
 
-h1, h2, h3 h4, h5, h6{
+h1, h2, h3 h4, h5, h6
+{
     font-family: "Cascadia Mono";
     font-size: 175%;
     text-align: center;
@@ -11,54 +12,67 @@ h1, h2, h3 h4, h5, h6{
     border-radius:10px;
 }
 
-body, #Hero, footer {
+body, #Hero, footer 
+{
     font-family: "Oswald";
     background-color: #13235a;
     color: #EBA700;
 }
 
-#Hero {
+#Hero 
+{
     font-size:20px;
     text-align: center;
     background-color:#000033;
     padding: 5px;
-
 }
 
-p, li {
+p, li 
+{
     margin-left: 20px;
     margin-right: 20px;
 }
 
-#Hero img{
+#Hero img
+{
     width: 400px;
     max-width: 100%; /* Does something with the image as the screen gets smaller*/
 }
 
-footer{
+footer
+{
     background-color: #000033;
     padding: 3px;
     border-radius: 10px;
 }
 
-#Gallery {
+#Gallery 
+{
     text-align: center;
 }
-
 #Gallery img {
-    width: 640px;
+    max-width:100%;
 }
 
-#Gallery hr {
+
+#Gallery hr 
+{
     border: none;
     border-top: 5px solid #000033;
 }
 
-#Hobbies
+#Hobbies p, #Hobbies ul
 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+article div
+{
+    max-width: 100%;
+    columns: 40rem;
+    padding: 2em;
 }
 
 @media (min-width: 960px)
@@ -76,6 +90,30 @@ footer{
         align-items: center;
         font-size:125%;
         margin-left: 1rem;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    #Gallery
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #Gallery figure
+    {
+        display: block;
+    }
+
+    #Gallery h2
+    {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
+    #Gallery hr
+    {
+        display: none;
     }
 }
 

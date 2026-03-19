@@ -54,11 +54,12 @@ footer{
     border-top: 5px solid #000033;
 }
 
-@media (max-width: 1527px) 
-{
+
+/*@media (max-width: 1527px)*/
+/*{*/
 /* that means 'if screen <= #px' */
-    body 
+    /*body 
     {
         background-color:red;
     }
-}
+}*/

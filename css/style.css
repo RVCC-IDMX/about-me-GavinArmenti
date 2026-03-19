@@ -35,3 +35,25 @@ footer{
     padding: 3px;
     border-radius: 10px;
 }
+
+#Gallery {
+    text-align: center;
+}
+
+#Gallery img {
+    width: 640px;
+}
+
+#Gallery hr {
+    border: none;
+    border-top: 5px solid #000033;
+}
+
+@media (max-width: 1527px) 
+{
+/* if screen <= #px */
+    body 
+    {
+        background-color:red;
+    }
+}

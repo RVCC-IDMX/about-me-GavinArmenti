@@ -4,7 +4,7 @@
 h1, h2, h3 h4, h5, h6
 {
     font-family: "Cascadia Mono";
-    font-size: 175%;
+    font-size: 200%;
     text-align: center;
     background-color: #000033;
     padding: 10px;
@@ -143,6 +143,53 @@ article div
     }
 }
 
-/* Look at css-tricks.com Guide to Flexbox to look at
-putting elements at the same level
-Also look at Guide to Grid Layout.*/
+/*Contact Form*/
+
+#formElements {
+    display:grid;
+    row-gap: 0.5em;
+}
+
+#Contact {
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+fieldset {
+    background-color: #000033;
+    border: 3px solid #EBA700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 1rem;
+    width: 50%;
+    justify-self:center;
+}
+
+legend {
+    padding: 0.5em;
+    background-color: #000033;
+    border: 2px solid #EBA700;
+}
+
+#Contact input, #Contact textarea, #Contact select, #Contact button {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+#Contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#Contact li {
+    margin: 1rem;
+}
+
+#Contact button{
+    background-color: #13235a;
+    border: 2px solid #EBA700;
+    color: #EBA700;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+}

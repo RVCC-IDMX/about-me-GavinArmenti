@@ -26,6 +26,7 @@ body, #Hero, footer
     text-align: center;
     background-color:#000033;
     padding: 5px;
+    margin-top: 2em;
 }
 
 p, li 
@@ -150,7 +151,7 @@ article div
     row-gap: 0.5em;
 }
 
-#Contact {
+#Contact form {
     padding: 1rem;
     margin: 2rem auto;
 }

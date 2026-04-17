@@ -17,9 +17,7 @@ body {
 
 /* add some to the rest of the page */
 
-main {
-    padding: 2vw;
-}
+/* I decided against adding padding here...*/
 
 /* nav bar */
 .navbar {

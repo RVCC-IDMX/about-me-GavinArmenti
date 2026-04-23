@@ -24,7 +24,7 @@ Finally, creating the footer not only taught me to create a footer but also taug
 
 # Color Scheme
 
-[Add swatch here!!!!!!!]
+![Swatch](img/Swatch.png)
 
 A dark blue, Hex #000033 / RGB(0,0,51).
 This dark blue was used as the background for most non-content pieces. It is the background for parts such as headings, the navigation bar, the form, and the footer. It was also used as the background for the Hero section to make it stand out from the rest of the page content.

@@ -30,7 +30,12 @@ body {
 .logo {
     display:flex;
     justify-content:center;
+    margin-top: 5%;
 }
+.logo img {
+    width: 40%;
+}
+
 
 /* navigation list */
 
@@ -75,6 +80,13 @@ such that no text wraps
 
 @media (min-width: 925px)
 {
+    .logo {
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.logo img {
+    width: 100%;
+}
 
     .navbar {
         display: flex;

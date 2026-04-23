@@ -37,3 +37,8 @@ This yellow-orange color was used for all text except for the text representing 
 
 Pure white, Hex FFFFFF / RGB (255,255,255).
 White was used for the text holding the navigation bar links.
+
+# Credit
+
+The Image Gallery was drawn by me on Kleki.
+The BTF logo was drawn by me on SVGSketch.

@@ -42,3 +42,7 @@ White was used for the text holding the navigation bar links.
 
 The Image Gallery was drawn by me on Kleki.
 The BTF logo was drawn by me on SVGSketch.
+
+# Copyrights
+
+© 2026 Gavin Armenti

@@ -36,9 +36,21 @@ p, li, figcaption
     font-size: 115%;
 }
 
+#Bio img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 400px;
+    max-width: 80%;
+}
+
+#Bio figcaption {
+    text-align: center;
+}
+
 #Hero img
 {
-    width: 400px;
+    width: 500px;
     max-width: 100%; /* Does something with the image as the screen gets smaller*/
 }
 
@@ -112,7 +124,7 @@ article div
         display:grid;
         grid-template-columns: 2fr 1fr;
     }
-    figcaption
+    #Gallery figcaption, #video figcaption
     {
         display:flex;
         justify-content: center;

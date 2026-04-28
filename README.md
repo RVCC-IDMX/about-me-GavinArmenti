@@ -4,9 +4,9 @@ My name is Gavin Armenti.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c3177ac4-ae40-43c6-8c46-11d5df19a9f8/deploy-status)](https://app.netlify.com/projects/about-me-gavinarmenti/deploys)
 
-### Operator Zachary Stone
+### ![BTF Logo](img/favicon.ico) Operator Zachary Stone 
 
-This project, titled "Operator Zachary Stone," is a project that tells the background of Zachary Stone, one of the main protagonists of an in-progress game called The Redmark Forest. It is a game I have been working on once in a while. Zachary Stone initially had very little background and character, but working on this project greatly expanded it.
+This project, titled "Operator Zachary Stone," is a project that tells the background of Zachary Stone, one of the main protagonists of an in-progress game called The Redmark Forest. It is a game I have been working on once in a while. Zachary Stone initially had very little background and character more than just being an admired, moral squad leader, but working on this project greatly expanded it.
 
 # Purpose
 
@@ -46,7 +46,8 @@ The BTF logo was drawn by me on SVGSketch.
 
 # Citations
 
-The Zachary Stone sketch was drawn for me by user rollinhelladeep on Roblox.
+The Zachary Stone sketch in the Hero section was drawn by @hunchomuendo on Roblox.
+The Zachary Stone sketch in the Bio section was drawn by @User_0393929 on Roblox.
 
 # Copyright
 

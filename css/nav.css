@@ -26,16 +26,6 @@ body {
     flex-direction: column;
 }
 
-/*logo */
-.logo {
-    display:flex;
-    justify-content:center;
-    margin-top: 5%;
-}
-.logo img {
-    width: 40%;
-}
-
 
 /* navigation list */
 
@@ -71,24 +61,74 @@ and then on hover
     filter: invert(1);
 }
 
+/* NavBar Toggle */
+.navbar
+{
+    padding: 1rem;
+
+    .Menu, #navCheck
+    {
+        display:none;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #Close {
+        display: none;
+    }
+
+    .navToggle
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo{
+    display:none;
+}
+
+#navCheck:checked ~ .navToggle
+{
+    #Toggler
+    {
+        display: none;
+    }
+        
+    #Close
+    {
+        display: block;
+    }
+}
+
+#navCheck:checked ~ .Menu 
+{
+    display: block;
+}
+
 
 /*
-medie query for non-mobile nav bar
+media query for non-mobile nav bar
 min-width set to width of nav elements
 such that no text wraps
 */
 
 @media (min-width: 925px)
 {
-    .logo {
-    margin-left: 5%;
-    margin-top: 0%;
-}
-.logo img {
-    width: 100%;
-}
+    .navbar .navToggle, .navbar #MiniLogo
+    {
+        display:none;
+    }
 
-    .navbar {
+    .navbar .logo 
+    {
+        display:block;
+    }
+
+    .navbar .Menu {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -99,9 +139,5 @@ such that no text wraps
         display:flex;
         justify-content: space-between;
         flex-direction: row;
-    }
-
-    .navbar img {
-        max-height: 150px;
     }
 }

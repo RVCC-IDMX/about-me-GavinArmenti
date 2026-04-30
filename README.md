@@ -37,7 +37,7 @@ A yellow-orange, Hex #eba700 / RGB(235,167,0).
 This yellow-orange color was used for all text except for the text representing links in the navigation bar.
 
 Pure white, Hex #ffffff / RGB (255,255,255).
-White was used for the text holding the navigation bar links. This helps the links to stand out, to aid them from being mistaken for regular text.
+White was used for the text holding any links, including the navigation bar links and the footer link. This helps the links to stand out, to aid them from being mistaken for regular text.
 
 # Credit
 

@@ -18,7 +18,7 @@ The "Hero" section was the first section I had created on this project. It helpe
 Creating the "Bio" section was inspiring to me; it marked my first time truly placing content onto a website of my own. It taught me to style headers and text.
 Creating the "Hobbies" section taught me to use lists.
 Creating the "Gallery" section for images taught me to design layouts that are responsive to different screen sizes, as well as introducing me to flex displays and grids.
-Creating the article section taught me to use articles as well as columns for text.
+Creating the article section taught me to create responsive text that displays in columns or rows depending on the viewer's screen size.
 Creating the "video" section taught me to embed YouTube videos onto the website.
 Creating the "Contact" section taught me to create and style forms that output to Netlify.
 Finally, creating the footer not only taught me to create a footer but also taught me where to put Copyrights, credits, and other important, useful information.

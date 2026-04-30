@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Oswald:wght@200..700&display=swap');
 
 
+/* Text */
+
 h1, h2, h3 h4, h5, h6
 {
     font-family: "Cascadia Mono";
@@ -13,6 +15,26 @@ h1, h2, h3 h4, h5, h6
     border-radius:10px;
 }
 
+p, li, figcaption 
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 115%;
+}
+
+/*Links*/
+a {
+    color: #FFFFFF;
+    background-color: #000033;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    filter: invert(1);
+}
+
+/* Sections */
+
 body, #Hero, footer 
 {
     font-family: "Oswald";
@@ -20,6 +42,7 @@ body, #Hero, footer
     color: #EBA700;
 }
 
+/* Hero */
 #Hero 
 {
     font-size:20px;
@@ -28,57 +51,29 @@ body, #Hero, footer
     padding: 5px;
     margin-top: 2em;
 }
-
-p, li, figcaption 
-{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 115%;
-}
-
-#Bio img {
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 400px;
-    max-width: 80%;
-}
-
-#Bio figcaption {
-    text-align: center;
-}
-
 #Hero img
 {
     width: 500px;
     max-width: 100%; /* Does something with the image as the screen gets smaller*/
 }
 
-footer
+/*Bio*/
+#Bio img 
 {
-    background-color: #000033;
-    padding: 3px;
-    border-radius: 10px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 400px;
+    max-width: 80%;
 }
-
-#Gallery 
-{
+#Bio figcaption {
     text-align: center;
 }
-#Gallery img {
-    max-width:100%;
-}
 
-
-#Gallery hr 
-{
-    border: none;
-}
-
+/*Hobbies*/
 #Hobbies p {
     align-items: center;
 }
-
 #Hobbies p, #Hobbies ul
 {
     display: flex;
@@ -86,6 +81,19 @@ footer
     /*align-items: center;*/
 }
 
+/*Gallery*/
+#Gallery 
+{
+    text-align: center;
+}
+#Gallery img {
+    max-width:100%;
+}
+#Gallery hr 
+{
+    border: none;
+}
+/*Artice*/
 article div
 {
     max-width: 100%;
@@ -93,6 +101,7 @@ article div
     padding: 2em;
 }
 
+/*Video*/
 #video iframe {
     display: block;
     /*width: 600px;
@@ -102,23 +111,20 @@ article div
     margin-left: auto;
     margin-right: auto;
 }
-
 #video figcaption {
     margin-top: 1%;
     margin-bottom: 2%;
 }
 
- a{
-    color: #FFFFFF;
+/*Footer*/
+footer
+{
     background-color: #000033;
-    text-decoration: none;
-    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
 }
 
- a:hover{
-    filter: invert(1);
-}
-
+/*Responsive Video Size*/
 @media (min-width: 600px)
 {    
     #video iframe
@@ -127,6 +133,7 @@ article div
     } 
 }
 
+/*Responsive Gallery Layout*/
 @media (min-width: 960px)
 {
     /*min-width means 'if screen >= #px' */
@@ -145,6 +152,7 @@ article div
     }
 }
 
+/*Other responsive layouts*/
 @media (min-width: 1200px)
 {
     /*min-width means >= */

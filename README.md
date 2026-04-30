@@ -6,7 +6,7 @@ My name is Gavin Armenti.
 
 ### ![BTF Logo](img/favicon.ico) Operator Zachary Stone 
 
-This project, titled "Operator Zachary Stone," is a project that tells the background of Zachary Stone, one of the main protagonists of an in-progress video game called The Redmark Forest. It is a game I have been working on once in a while. Zachary Stone initially had very little background and character more than just being an admired, moral BTF squad leader, but working on this project greatly expanded it.
+This project, titled "Operator Zachary Stone," is a project that tells the background of Zachary Stone, one of the main protagonists of an in-progress video game called The Redmark Forest. It is a game I have been working on once in a while. Zachary Stone initially had very little background and character more than just being an admired, moral BTF squad leader, but working on this project expanded on it.
 
 # Purpose
 
@@ -28,7 +28,7 @@ Finally, creating the footer not only taught me to create a footer but also taug
 ![Swatch](img/Swatch.png)
 
 A dark blue, Hex #000033 / RGB(0,0,51).
-This dark blue was used as the background for most non-content pieces. It is the background for parts such as headings, the navigation bar, the form, and the footer. It was also used as the background for the Hero section to make it stand out from the rest of the page content.
+This dark blue was used as the background for most non-content pieces. It is the background for parts such as headings, the navigation bar, the contact form, and the footer. It was also used as the background for the Hero section to make it stand out from the rest of the page content.
 
 A blue, Hex #13235a / RGB(19, 35, 90).
 This comparatively lighter blue was used as the background for most content pieces. It is the background for all paragraphed and captioned text, the gallery images, the video, and any margins. It was also used as the background color for the submit button to help it stand out from the dark blue background of the form.
@@ -37,11 +37,11 @@ A yellow-orange, Hex #eba700 / RGB(235,167,0).
 This yellow-orange color was used for all text except for the text representing links in the navigation bar.
 
 Pure white, Hex #ffffff / RGB (255,255,255).
-White was used for the text holding the navigation bar links.
+White was used for the text holding the navigation bar links. This helps the links to stand out, to aid them from being mistaken for regular text.
 
 # Credit
 
-The Image Gallery images were drawn by me on Kleki. The same goes for the Hamburger Icon and the X Icon for the Navigation Bar.
+The Image Gallery images were drawn by me on Kleki. The same goes for the Hamburger Icon and the X Icon in the Navigation Bar.
 
 The BTF logo was drawn by me on SVGSketch.
 

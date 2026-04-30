@@ -108,6 +108,17 @@ article div
     margin-bottom: 2%;
 }
 
+ a{
+    color: #FFFFFF;
+    background-color: #000033;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ a:hover{
+    filter: invert(1);
+}
+
 @media (min-width: 600px)
 {    
     #video iframe

@@ -48,7 +48,12 @@ The BTF logo was drawn by me on SVGSketch.
 # Citations
 
 The Zachary Stone sketch in the Hero section was drawn by @hunchomuendo on Roblox.
+
 The Zachary Stone sketch in the Bio section was drawn by @User_0393929 on Roblox.
+
+https://fooplugins.com/thumbnail-hover-effect/
+https://cssauthor.com/css-hover-effects/
+https://www.w3schools.com/howto/howto_css_image_effects.asp
 
 # Copyright
 

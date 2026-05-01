@@ -100,6 +100,18 @@ article div
     columns: 40rem;
     padding: 2em;
 }
+article img
+{
+    width: 320px;
+}
+article #OpacityChangeIMG
+{
+    opacity: 0.5;
+}
+article #OpacityChangeIMG:hover
+{
+    opacity: 1;
+}
 
 /*Video*/
 #video iframe {

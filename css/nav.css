@@ -26,11 +26,6 @@ body {
     flex-direction: column;
 }
 
-/*logo */
-.logo {
-    display:flex;
-    justify-content:center;
-}
 
 /* navigation list */
 
@@ -53,7 +48,7 @@ and then on hover
 */
 
 .navbar-links a{
-    color: white;
+    color: #FFFFFF;
     background-color: #000033;
     font-size: 1.5em;
     padding: 0.25em;
@@ -66,17 +61,74 @@ and then on hover
     filter: invert(1);
 }
 
+/* NavBar Toggle */
+.navbar
+{
+    padding: 1rem;
+
+    .Menu, #navCheck
+    {
+        display:none;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #Close {
+        display: none;
+    }
+
+    .navToggle
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo{
+    display:none;
+}
+
+#navCheck:checked ~ .navToggle
+{
+    #Toggler
+    {
+        display: none;
+    }
+        
+    #Close
+    {
+        display: block;
+    }
+}
+
+#navCheck:checked ~ .Menu 
+{
+    display: block;
+}
+
 
 /*
-medie query for non-mobile nav bar
+media query for non-mobile nav bar
 min-width set to width of nav elements
 such that no text wraps
 */
 
 @media (min-width: 925px)
 {
+    .navbar .navToggle, .navbar #MiniLogo
+    {
+        display:none;
+    }
 
-    .navbar {
+    .navbar .logo 
+    {
+        display:block;
+    }
+
+    .navbar .Menu {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -87,9 +139,5 @@ such that no text wraps
         display:flex;
         justify-content: space-between;
         flex-direction: row;
-    }
-
-    .navbar img {
-        max-height: 150px;
     }
 }

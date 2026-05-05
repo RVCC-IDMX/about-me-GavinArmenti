@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Operator Zachary Stone</title>
+
+    <!-- Style Sheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -15,38 +21,51 @@
 
     <header>
 
+        <!-- The Navigation Bar -->
+
+
         <nav class="navbar">
-            <div class="logo">
-                <img
-                    src = "img/Numbers.png"
-                    class = "log-img"
-                    alt = "A sketched image of Zachary Stone"
-                    >
+            <input type="checkbox" id="navCheck"> <!--Determines visibiliy.-->
+
+            <!--navToggle: the div containing the option to toggle the navigation menu -->
+            <div class="navToggle">
+                <img src="img/BTFlogo.png" id="MiniLogo">
+
+                <label for="navCheck">
+                    <img id="Toggler" src = "img/HamburgerIcon.png" alt = "Navbar Toggle">
+                    <img id="Close" src = "img/buttonX.png" alt = "Close Button">
+                </label>
             </div>
-            <h1>Zachary Stone</h1>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#Bio" class="nav-links">Bio</a></li>
-                    <li><a href="#Hobbies" class="nav-links">Hobbies</a></li>
-                    <li><a href="#Gallery" class="nav-links">Gallery</a></li>
-                    <li><a href="#Contact" class="nav-links">Contact Me</a></li>
-                </ul>
+
+            <!-- Menu: A div containing the menu for navigation. -->
+            <div class="Menu">
+                <div class="logo">
+                    <img
+                        src = "img/BTFlogo.svg"
+                        class = "log-img"
+                        alt = "A sketched image of Zachary Stone">
+                </div>
+                <h1>Zachary Stone</h1>
+                <div class="navbar-links">
+                    <ul>
+                        <li><a href="#Bio" class="nav-links">Bio</a></li>
+                        <li><a href="#Hobbies" class="nav-links">Hobbies</a></li>
+                        <li><a href="#Gallery" class="nav-links">Gallery</a></li>
+                        <li><a href="#Contact" class="nav-links">Contact Me</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
     </header>
 
-
-
+    <!-- Page Content -->
     <main>
-        <!--envelops important page content-->
+        
+        <!-- Hero Section: Shows profile image, name, & location. -->
         <section id="Hero">
 
-            <!-- Hero Section: Shows profile image, name, & location. -->
-
-                <h1>
-        Blackthorn Forces Operator Zachary Stone
-    </h1>
+            <h1>Blackthorn Forces Operator Zachary Stone</h1>
 
             <div>
                 <p>
@@ -56,15 +75,25 @@
             </div>
         </section>
 
+        <!-- Bio Section: A section of personal info (NOT TOO PERSONAL!)-->
         <section id="Bio">
-            <!-- Bio Section: Personal info (NOT TOO PERSONAL!)-->
+            
              <div>
                 <h2>
                     Blackthorn Status
                 </h2>
                 <p>
-                    Zachary Stone (Zach for short) is a highly skilled operator and squad leader for special operations within The Blackthorn Forces (BTF). His squad is often simply referred to as "Zach's team," and is a small team mainly consisting of operators Owen and Carl. It is rare for other operators or soldiers to follow Zach's Team into a mission; unlike all other squad leaders, Zachary reports directly to Valecentis, head of Blackthorn, for the orders for his squad. This means that Zach's team is often sent on very special or secretive operations at the orders of Valecentis and nobody else, and any new recruits to this team must go through Valecentis.<br>Zach and his team are highly anticipated to be involved in the spearheading of The Redmark Forest (dubbed this because of its forested and dangerous nature causing a display of a forest with a red mark on maps), as Valecentis has shown great interest in its security.
+                    Zachary Stone (Zach for short) is a highly skilled operator and squad leader for special operations within The Blackthorn Forces (BTF), often referred to just as Blackthorn. His squad is often simply referred to as "Zach's team," and is a small team mainly consisting of operators Owen and Carl. It is rare for other operators or soldiers to follow Zach's Team into a mission; unlike all other squad leaders, Zachary reports directly to Valecentis, head of Blackthorn, for the orders for his squad. This means that Zach's team is often sent on very special or secretive operations at the orders of Valecentis and nobody else, and any new recruits to this team must go through Valecentis.
                 </p>
+
+
+                <img src = "img/Numbers2-640w.jpg" alt = "A second sketched picture of Zachary Stone."> 
+                <figcaption>Another sketched picture of Zachary Stone.</figcaption>
+
+                <p>
+                    Zach and his team are highly anticipated to be involved in the spearheading of The Redmark Forest, as Valecentis has shown great interest in its security. The Redmark Forest got its name simply because its forested and dangerous nature cause operation maps to display a forest with a red mark. The reason behind Valecentis' interest in this forest's security is unknown.
+                 </p>
+                
              </div>
              <div>
                 <h2>
@@ -76,17 +105,23 @@
              </div>
         </section>
 
+        <!-- Hobbies Section: A section to list out hobbies. -->
         <section id = "Hobbies">
             <h2>Zachary's Hobbies</h2>
             <p>For recreation, Zachary often:</p>
             <ul>
-                <li>Engages in target practice</li>
-                <li>Relaxes by a campfire</li>
-                <li>Plays video games</li>
-                <li>Unfortunately, reads classified documents above the authority of his rank</li>
+                <li>Engages in target practice. As a soldier of secretive Blackthorn operations, Zachary's survival relies on sharp aim. He therefore wishes to keep it sharp.
+                    He also finds it entertaining, and it gives him a sense of his own skill and abilities.
+                </li>
+                <li>Relaxes by a campfire. Campfires, especially at night, give him a sense of serenity. After long or difficult days, campfires help to let him calmly think things over.</li>
+                <li>Plays video games. He enjoys action and FPS games. He will often be found playing such games with Owen and Carl.</li>
+                <li>Reads classified documents above the authority of his rank. An unfortunate activity, but his curiosity and suspicion drive him. For this, Valecentis has not yet given much punishment to him specifically.</li>
+                <li>Works out. Typically in the form of push-ups or jogs, Zach exercises because his survival often relies on his strength and fitness.</li>
+                <li>Listens to music. He enjoys metal, rock, and sometimes pop songs. Owen often enjoys Zach's metal and rock tracks while disliking his pop tracks. Carl is the opposite way around.</li>
             </ul>
         </section>
 
+        <!-- Gallery Section: A section for an image gallery. -->
         <section id="Gallery">
             <h2>Image Gallery</h2>
 
@@ -94,7 +129,7 @@
 
             <figure>
                 <img src = "img/Zach-TargetP-640w.jpg" alt="Three bottles on a table outside in the grass. The far left bottle is shattered by Zachary's target practice.">
-                <figcaption>Zachary finds target practice entertaining, and wishes to keep his aim sharp.</figcaption>
+                <figcaption>Zachary finds target practice entertaining. He also wishes to keep his aim sharp.</figcaption>
             </figure>
 
             <hr>
@@ -113,38 +148,37 @@
 
         </section>
 
-        <!--<section>-->
-            <!-- The section where I include the required images. -->
-             <!--<h2>
-                For The Assignment
-             </h2>
-             <p>
-                I included these images just for the assignment rubric:
-             </p>
-            <img src = "img/avataaars.png" alt = "avataaars image of me" width = 100, height = 100>
-            <img src = "img/logo-96X96.svg" alt = "Blue Origami Bird (BOB)">
-
-        </section>-->
-
+        <!-- Article-->
         <article>
-            <h2>Dracula - Bram Stoker</h2>
+            <h2>Image Hover Effects</h2>
 
             <div>
                 <!-- Article content -->
                  <p>
-                    I am beginning to feel this nocturnal existence tell on me. It is destroying my nerve. I start at my own shadow, and am full of all sorts of horrible imaginings. God knows that there is ground for my terrible fear in this accursed place! I looked out over the beautiful expanse, bathed in soft yellow moonlight till it was almost as light as day.
+                    There are many ways to make use of hover on an image to influence a user's experience. The intention of the use of these effects should be to boost user experience in some way. For example, cssauthor.com states that hover effects can increase user confidence as it, "confirms an element is interactive before clicking," and can even increase click rates. This should be kept in mind when adding effects because, as with any effects or animations, adding confusing or excessive effects can damage an experience rather than improve it. You should also keep in mind that mobile devices can not utilize any hover effects you add.
                  </p>
                  <p>
-                    The castle is on the very edge of a terrible precipice. A stone falling from the window would fall a thousand feet without touching anything! As far as the eye can reach is a sea of green tree tops, with occasionally a deep rift where there is a chasm. Here and there are silver threads where the rivers wind in deep gorges through the forests.
+                    Some sites, such as fooplugins.com, suggest the use of a change in opacity of an image to provide "quick visual feedback" without distracting the user too much. Here is an example of this:
                  </p>
+                 <p><img src="img/ExampleImage.png" alt="An example image. It is transparent until the user hovers over it." id="OpacityChangeIMG"></p>
+                 <p>Similarly, fooplugins.com suggests that a brightness filter can be placed over the image. Additionally, w3schools.com suggests that an image can be filtered to black and white and return to its original color once hovered. These effects have similar impact; it is up to you as a creator to decide which fits best.</p>
+                 <p>With all of these surface-level effects, you are probably wondering where the functional effects are. Well, w3schools.com suggests that developers can use effects to make text appear over or through an image. Here is an example of this:</p>
+                <div>
+                    <img src="img/ExampleImage.png" alt = "An example image." id="IMGhidingText"> 
+                    <div id="hidingText">An example image I drew on Kleki</div>
+                </div>
+                 <p>While this example was done much more professionally on w3schools.com, this sample should give a basic idea of what can be done with such effects. Using this, you can relate a piece of text to the image while also saving some space on your page.</p>
+                 <p>Remember: even subtle change can improve the user experience.</p>
             </div>
         </article>
 
+        <!-- Video Section: A section to embed a video. -->
         <section id="video">
             <h2>A Short Video</h2>
             <iframe src="https://www.youtube.com/embed/BNUFPIBsgms?si=n3oCY-V5L08JXgkm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <figcaption>A short video featuring a non-canon background for Owen, a canon squadmate in Zach's Team</figcaption>
         </section>
 
+        <!-- Contact Section: A section containing a form for contact / feedback. -->
         <section id="Contact">
 
             <h2>Contact Us:</h2>
@@ -210,11 +244,11 @@
 
     </main>
 
-        <footer>
-        <p>Now on Netlify!</p>
-        <p>Image Gallery painted on Kleki</p>
-        <p>&copy; 2026 Gavin Armenti</p> <!--FOR ADDING COPYRIGHT-->
-        </footer>
+    <!--Footer for Copyrights and other info. -->
+    <footer>
+        <p><a href="https://github.com/RVCC-IDMX/about-me-GavinArmenti" class="link">GitHub Repository</a></p>
+        <p>&copy; 2026 Gavin Armenti</p>
+    </footer>
 
 </body>
 

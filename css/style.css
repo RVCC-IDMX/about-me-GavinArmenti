@@ -107,10 +107,38 @@ article img
 article #OpacityChangeIMG
 {
     opacity: 0.5;
+    transition: 0.7s ease;
 }
 article #OpacityChangeIMG:hover
 {
     opacity: 1;
+    transition: 0.7s ease;
+}
+
+article #IMGhidingText
+{
+    opacity: 1;
+}
+
+article #IMGhidingText:hover
+{
+    opacity: 0;
+    transition: 0.7s ease;
+}
+
+article #IMGhidingText:hover + #hidingText
+{
+    opacity: 1;
+    transition: 0.7s ease;
+    
+}
+
+article #hidingText
+{
+    font-size: 140%;
+    opacity: 0;
+    translate: 0% -100%;
+    position: absolute;
 }
 
 /*Video*/
